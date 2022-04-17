@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+
+        <h1 id="title">Information Technology Survey Form</h1>
+        <p id="description">This is the survey form to ensure everyone to get their needy tech...asap.</p>
+        <form id="survey-form">
+            <label for="name" id="name-label">Your Name : </label>
+            <input type="text" name="" id="name" placeholder="Enter Your Name" required>
+            <br><br>
+            <label for="email" id="email-label">Your Email : </label>
+            <input type="email" name="" id="email" placeholder="Enter Your Email Address" required>
+            <br><br>
+            <label for="number" id="number-label">Your Contact Number :</label>
+            <input type="number" name="" id="number" min="0" max="9" placeholder="Enter Your Contacr Number" required>
+            <br><br>
+            <label for="cars">Choose a Technology:</label>
+            <select name="dropdown" id="dropdown">
+                <option value="cloud">Cloud</option>
+                <option value="blockchain">Blockchain</option>
+                <option value="data_science">Data Science</option>
+                <option value="backend_developer">Backend Developer</option>
+            </select>
+            <br>
+            <br>
+            <span class="join">Do You want to Share this Survey Form to Your Peers</span>
+            <br>
+            <input type="radio" value="Definitely" name="course" id=""><span>Definitely</span> <br>
+            <input type="radio" value="Maybe" name="course" id=""><span>May Be</span> <br>
+            <input type="radio" value="Notsure" name="course" id=""><span>Not Sure</span> <br>
+
+            <br>
+            <span class="moretech">Are You Interested in More Technology</span>
+            <br>
+            <input type="checkbox" value="1" name="" id=""> <span>Frontend Dev</span> <br>
+            <input type="checkbox" value="2" name="" id=""> <span>JAVA</span> <br>
+            <input type="checkbox" value="3" name="" id=""> <span>C++</span> <br>
+            <input type="checkbox" value="3" name="" id=""> <span>Python</span> <br>
+            <input type="checkbox" value="3" name="" id=""> <span>DataBase</span> <br>
+            <input type="checkbox" value="3" name="" id=""> <span>Network</span> <br>
+            <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

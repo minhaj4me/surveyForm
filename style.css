@@ -1,0 +1,7 @@
+.form{
+    margin: 50% 0;
+    padding: 25%;
+    background-image: linear-gradient(to top right, skyblue, lightgreen);
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
